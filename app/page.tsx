@@ -1,21 +1,67 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen justify-center font-sans bg-black">
+      <main className="flex w-full max-w-3xl flex-col justify-between  px-16 bg-black sm:items-start">
         <Image
-          src="/M3MLogo.png"
+          src="/M3MLogoSquare1800x1800.png"
           alt="Magnificent Three Music"
-          width={2029}
-          height={1900}
+          width={1800}
+          height={1800}
           priority
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50"></h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400"></p>
+        <div className="flex grid-rows-1 lg:grid-cols-3 min-h-dvh w-full gap-8 mt-10 justify-start text-center">
+          <div className="col-automd:mr-10">
+            <Link
+              href="https://www.heartofcygnus.com/"
+              className="cursor-pointer"
+              target="_blank"
+            >
+              <Image
+                src="/HoCLogo2025.jpg"
+                alt="Heart of Cygnus"
+                width={1000}
+                height={1000}
+                priority
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+          <div className="col-auto md:mr-10">
+            <Link
+              href="https://burningdown.bandcamp.com/"
+              className="cursor-pointer"
+              target="_blank"
+            >
+              <Image
+                src="/BDHoldOnCDCoverFleurDeLis6.4.jpg"
+                alt="Burningdown"
+                width={1000}
+                height={1000}
+                priority
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+          <div className="col-auto">
+            <Link
+              href="https://www.jeffreyrobertlane.com/"
+              className="cursor-pointer"
+              target="_blank"
+            >
+              <Image
+                src="/jeff_joshuatree_flyingv_cropped.png"
+                alt="Jeffrey Robert Lane"
+                width={1000}
+                height={1000}
+                priority
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row"></div>
       </main>
     </div>
   );
