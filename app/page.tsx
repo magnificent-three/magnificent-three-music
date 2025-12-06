@@ -21,23 +21,6 @@ export default function Home() {
           </a>
         </div>
         <div className="flex grid-rows-1 lg:grid-cols-3 w-full h-dvh gap-8 mt-10 justify-start text-center">
-          <div className="col-automd:mr-10">
-            <Link
-              href="https://www.heartofcygnus.com/"
-              className="cursor-pointer"
-              target="_blank"
-              title="Heart of Cygnus"
-            >
-              <Image
-                src="/HoCLogo2025.jpg"
-                alt="Heart of Cygnus"
-                width={1000}
-                height={1000}
-                priority
-                className="rounded-lg"
-              />
-            </Link>
-          </div>
           <div className="col-auto md:mr-10">
             <Link
               href="https://burningdown.bandcamp.com/"
@@ -48,6 +31,23 @@ export default function Home() {
               <Image
                 src="/BDHoldOnCDCoverFleurDeLis6.4.jpg"
                 alt="Burningdown"
+                width={1000}
+                height={1000}
+                priority
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+          <div className="col-automd:mr-10">
+            <Link
+              href="https://www.heartofcygnus.com/"
+              className="cursor-pointer"
+              target="_blank"
+              title="Heart of Cygnus"
+            >
+              <Image
+                src="/HoCLogo2025.jpg"
+                alt="Heart of Cygnus"
                 width={1000}
                 height={1000}
                 priority
