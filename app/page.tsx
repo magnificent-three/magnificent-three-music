@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen justify-center font-sans bg-black">
-      <main className="flex w-full max-w-3xl flex-col justify-between  px-16 bg-black sm:items-start">
+    <div className="flex justify-center font-sans bg-black">
+      <main className="flex w-full max-w-3xl flex-col justify-between  bg-black sm:items-start">
         <Image
           src="/M3MLogoSquare1800x1800.png"
           alt="Magnificent Three Music"
@@ -12,12 +12,18 @@ export default function Home() {
           height={1800}
           priority
         />
+        <div className="flex w-full gap-8 justify-center text-center">
+          <p className="text-orange-300">
+            Contact info@magnificentthreemusic.com
+          </p>
+        </div>
         <div className="flex grid-rows-1 lg:grid-cols-3 min-h-dvh w-full gap-8 mt-10 justify-start text-center">
           <div className="col-automd:mr-10">
             <Link
               href="https://www.heartofcygnus.com/"
               className="cursor-pointer"
               target="_blank"
+              title="Heart of Cygnus"
             >
               <Image
                 src="/HoCLogo2025.jpg"
@@ -34,6 +40,7 @@ export default function Home() {
               href="https://burningdown.bandcamp.com/"
               className="cursor-pointer"
               target="_blank"
+              title="Burningdown"
             >
               <Image
                 src="/BDHoldOnCDCoverFleurDeLis6.4.jpg"
@@ -50,6 +57,7 @@ export default function Home() {
               href="https://www.jeffreyrobertlane.com/"
               className="cursor-pointer"
               target="_blank"
+              title="Jeffrey Robert Lane"
             >
               <Image
                 src="/jeff_joshuatree_flyingv_cropped.png"
