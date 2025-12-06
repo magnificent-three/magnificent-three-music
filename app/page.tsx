@@ -21,16 +21,16 @@ export default function Home() {
           </a>
         </div>
         <div className="flex grid-rows-1 lg:grid-cols-3 w-full h-dvh gap-8 mt-10 justify-start text-center">
-          <div className="col-auto md:mr-10">
+          <div className="col-auto">
             <Link
-              href="https://burningdown.bandcamp.com/"
+              href="https://www.jeffreyrobertlane.com/"
               className="cursor-pointer"
               target="_blank"
-              title="Burningdown"
+              title="Jeffrey Robert Lane"
             >
               <Image
-                src="/BDHoldOnCDCoverFleurDeLis6.4.jpg"
-                alt="Burningdown"
+                src="/jeff_joshuatree_flyingv_cropped.png"
+                alt="Jeffrey Robert Lane"
                 width={1000}
                 height={1000}
                 priority
@@ -55,16 +55,16 @@ export default function Home() {
               />
             </Link>
           </div>
-          <div className="col-auto">
+          <div className="col-auto md:mr-10">
             <Link
-              href="https://www.jeffreyrobertlane.com/"
+              href="https://burningdown.bandcamp.com/"
               className="cursor-pointer"
               target="_blank"
-              title="Jeffrey Robert Lane"
+              title="Burningdown"
             >
               <Image
-                src="/jeff_joshuatree_flyingv_cropped.png"
-                alt="Jeffrey Robert Lane"
+                src="/BDHoldOnCDCoverFleurDeLis6.4.jpg"
+                alt="Burningdown"
                 width={1000}
                 height={1000}
                 priority
