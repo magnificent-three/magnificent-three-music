@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex justify-center font-sans bg-black">
-      <main className="flex w-full max-w-3xl flex-col justify-between  bg-black sm:items-start">
+      <main className="flex w-full h-screen max-w-3xl flex-col justify-between  bg-black sm:items-start">
         <Image
-          src="/M3MLogoSquare1800x1800.png"
+          src="/M3MLogoSquare1700x1700.png"
           alt="Magnificent Three Music"
           width={1800}
           height={1800}
@@ -20,7 +20,7 @@ export default function Home() {
             Contact info@magnificentthreemusic.com
           </a>
         </div>
-        <div className="flex grid-rows-1 lg:grid-cols-3 min-h-dvh w-full gap-8 mt-10 justify-start text-center">
+        <div className="flex grid-rows-1 lg:grid-cols-3 w-full h-dvh gap-8 mt-10 justify-start text-center">
           <div className="col-automd:mr-10">
             <Link
               href="https://www.heartofcygnus.com/"
