@@ -14,7 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Magnificent Three Music",
-  description: "Story. Composition. Magic.",
+  description: `Story. Composition. Magic.
+  Alternative Rock, Progressive Metal, Classical.
+  Heart of Cygnus
+  Burningdown
+  Jeffrey Robert Lane
+  `,
   icons: {
     icon: "/m3micon.png",
   },
