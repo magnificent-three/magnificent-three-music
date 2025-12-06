@@ -13,9 +13,12 @@ export default function Home() {
           priority
         />
         <div className="flex w-full gap-8 justify-center text-center">
-          <p className="text-orange-300">
+          <a
+            href="mailto:info@magnificentthreemusic.com"
+            className="text-orange-300"
+          >
             Contact info@magnificentthreemusic.com
-          </p>
+          </a>
         </div>
         <div className="flex grid-rows-1 lg:grid-cols-3 min-h-dvh w-full gap-8 mt-10 justify-start text-center">
           <div className="col-automd:mr-10">
