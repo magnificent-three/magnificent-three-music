@@ -4,14 +4,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex justify-center font-sans bg-black">
-      <main className="flex w-full h-screen max-w-3xl flex-col justify-between  bg-black sm:items-start">
-        <Image
-          src="/M3MLogoSquare1700x1700.png"
-          alt="Magnificent Three Music"
-          width={1800}
-          height={1800}
-          priority
-        />
+      <main className="flex w-full h-screen max-w-3xl flex-col items-center text-center  bg-black sm:items-start">
+        <h1 className="text-5xl my-16 text-orange-300 w-full text-center">
+          Magnificent Three Music
+        </h1>
+        <h2 className="text-3xl mb-16 text-orange-300 w-full text-center">
+          Story. Composition. Magic.
+        </h2>
         <div className="flex w-full gap-8 justify-center text-center">
           <a
             href="mailto:info@magnificentthreemusic.com"
