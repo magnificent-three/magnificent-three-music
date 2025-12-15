@@ -12,7 +12,7 @@ export default function Home() {
         style={{ padding: "32px"! }}
       >
         <div className="items-center text-center flex-col flex w-full px-8">
-          <h1 className="text-5xl my-8 text-orange-300 w-full text-center font-antique-bold">
+          <h1 className="text-7xl my-8 text-orange-300 w-full text-center font-antique-bold">
             Magnificent Three Music
           </h1>
           <h2 className="text-4xl mb-8 text-orange-200 w-full text-center font-antique">
@@ -56,15 +56,15 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="text-xl mb-3 text-orange-300 w-full text-justify">
-          What is Magnificent Three Music?
+        <p className="text-xl font-bold mb-3 text-orange-300 w-full text-justify">
+          Who is Magnificent Three Music?
         </p>
         <p className="text-lg mb-3 text-orange-200 w-full text-justify">
           We&apos;re a small, independent music publishing company (ASCAP) with
-          two artists on our roster, <strong>Burningdown</strong> (Alternative
+          two artists on our roster: <strong>Burningdown</strong> (Alternative
           Rock), and <strong>Heart of Cygnus</strong> (Progressive Metal).
         </p>
-        <p className="text-xl mb-3 text-orange-300 w-full text-justify">
+        <p className="text-xl font-bold mb-3 text-orange-300 w-full text-justify">
           What are the Magnificent Three?
         </p>
         <p className="text-lg mb-3 text-orange-200 w-full text-justify">
@@ -72,7 +72,7 @@ export default function Home() {
           <strong>Story</strong>, great <strong>Composition</strong>, and a bit
           of <strong>Magic</strong> from the soul of the artist.
         </p>
-        <p className="text-xl mb-3 text-orange-300 w-full text-justify">
+        <p className="text-xl font-bold mb-3 text-orange-300 w-full text-justify">
           Is Magnificent Three Music a One Stop Shop for licensing?
         </p>
         <p className="text-lg mb-3 text-orange-200 w-full text-justify">
