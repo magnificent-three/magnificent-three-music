@@ -16,7 +16,9 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-antique: "CaslonAntique";
+  --font-antique-italic: "CaslonAntiqueItalic";
   --font-antique-bold: "CaslonAntiqueBold";
+  --font-antique-bold-italic: "CaslonAntiqueBoldItalic";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +33,14 @@
   src: url("/CaslonAntique-Bold.ttf");
   font-weight: bold;
   font-style: normal;
+}
+@font-face {
+  font-family: "CaslonAntiqueBoldItalic";
+  src: url("/CaslonAntique-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "CaslonAntiqueItalic";
+  src: url("/CaslonAntique-Italic.ttf");
 }
 @font-face {
   font-family: "CaslonAntique";

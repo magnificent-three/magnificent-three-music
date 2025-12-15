@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="text-7xl my-8 text-orange-300 w-full text-center font-antique-bold">
             Magnificent Three Music
           </h1>
-          <h2 className="text-4xl mb-8 text-orange-200 w-full text-center font-antique">
+          <h2 className="text-4xl mb-10 text-orange-200 w-full text-center font-antique-italic">
             Story. Composition. Magic.
           </h2>
         </div>
