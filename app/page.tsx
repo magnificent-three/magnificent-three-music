@@ -19,7 +19,7 @@ export default function Home() {
             Story. Composition. Magic.
           </h2>
         </div>
-        <div className="flex grid-rows-1 lg:grid-cols-2 w-full justify-start text-center px-8">
+        <div className="flex grid-rows-1 lg:grid-cols-2 w-full justify-start text-center px-8 mb-8">
           <div className="col-auto md:mr-10 opacity-100!">
             <Link
               href="https://www.youtube.com/@burningdown-rocks/videos"
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="text-xl mb-3 text-orange-300 w-full text-justify px-8">
+        <p className="text-xl mb-3 text-orange-300 w-full text-justify">
           What is Magnificent Three Music?
         </p>
         <p className="text-lg mb-3 text-orange-200 w-full text-justify">
