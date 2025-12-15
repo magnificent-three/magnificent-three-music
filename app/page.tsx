@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex justify-center font-sans">
       <BackgroundSlideshow />
       <main
-        className="flex p-8 w-full h-screen max-w-3xl flex-col items-center text-center sm:items-start z-10  bg-black opacity-80"
+        className="flex p-8 w-full h-screen max-w-3xl flex-col items-center text-center sm:items-start z-10 bg-black opacity-70"
         style={{ padding: "32px"! }}
       >
         <div className="items-center text-center flex-col flex w-full px-8">
