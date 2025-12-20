@@ -49,7 +49,24 @@
   font-style: normal;
 }
 body {
-  background: var(--background);
+  /* 1. Set the background image URL */
+  background-image: url("/HydraCoverFinal3800x3800.jpg");
+
+  /* 2. Make the background image cover the entire viewport */
+  background-size: cover;
+
+  /* 3. Fix the image in place so it doesn't scroll with content */
+  background-attachment: fixed;
+
+  /* 4. Center the background image */
+  background-position: center;
+
+  /* 5. Prevent the image from repeating */
+  background-repeat: no-repeat;
+
+  /* 6. Ensure the body takes up at least the full height of the viewport */
+  min-height: 100vh;
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

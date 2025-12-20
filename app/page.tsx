@@ -6,9 +6,9 @@ import "./backgroundslideshow.module.css";
 export default function Home() {
   return (
     <div className="flex justify-center font-sans">
-      <BackgroundSlideshow />
+      {/* <BackgroundSlideshow /> */}
       <main
-        className="flex p-8 w-full h-screen max-w-3xl flex-col items-center text-center sm:items-start z-10 bg-black opacity-60"
+        className="flex p-8 w-full h-screen max-w-3xl flex-col items-center text-center sm:items-start z-10 bg-black opacity-70"
         style={{ padding: "32px"! }}
       >
         <div className="items-center text-center flex-col flex w-full px-8">
@@ -61,8 +61,25 @@ export default function Home() {
         </p>
         <p className="text-lg mb-3 text-orange-200 w-full text-justify">
           We&apos;re a small, independent music publishing company (ASCAP) with
-          two artists on our roster: <strong>Burningdown</strong> (Alternative
-          Rock), and <strong>Heart of Cygnus</strong> (Progressive Metal).
+          two artists on our roster:{" "}
+          <Link
+            href="https://www.youtube.com/@burningdown-rocks/videos"
+            className="cursor-pointer"
+            target="_blank"
+            title="Burningdown"
+          >
+            <strong>Burningdown</strong>
+          </Link>{" "}
+          (Alternative Rock), and{" "}
+          <Link
+            href="https://www.heartofcygnus.com/"
+            className="cursor-pointer"
+            target="_blank"
+            title="Heart of Cygnus"
+          >
+            <strong>Heart of Cygnus</strong>
+          </Link>{" "}
+          (Progressive Metal).
         </p>
         <p className="text-xl font-bold mb-3 text-orange-300 w-full text-justify">
           What are the Magnificent Three?
