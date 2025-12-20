@@ -86,8 +86,8 @@ export default function Home() {
           </p>
           <p className="text-lg mb-3 text-orange-200 w-full text-justify">
             These are the three ingredients that make great music: A compelling{" "}
-            <strong>Story</strong>, a beautiful <strong>Composition</strong>,
-            and a bit of <strong>Magic</strong> from the soul of the artist.
+            story, a beautiful composition, and a bit of magic from the soul of
+            the artist.
           </p>
           <p className="text-xl font-bold mb-3 text-orange-300 w-full text-justify">
             Is Magnificent Three Music a One Stop Shop for licensing?
