@@ -60,8 +60,8 @@ export default function Home() {
             Who is Magnificent Three Music?
           </p>
           <p className="text-lg mb-3 text-orange-200 w-full text-justify">
-            We&apos;re a small, independent music publishing company (ASCAP)
-            with two artists on our roster:{" "}
+            We are a small, independent music publishing company (ASCAP) with
+            two artists on our roster:{" "}
             <Link
               href="https://www.youtube.com/@burningdown-rocks/videos"
               className="cursor-pointer"
